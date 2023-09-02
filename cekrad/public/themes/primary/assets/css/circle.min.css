@@ -1,0 +1,160 @@
+.logo {
+  position: absolute;
+  top: 10px;
+  z-index: 26;
+  left: calc(50% - 75px)
+}
+
+.logo-circle {
+  position: absolute;
+  top: -2px;
+  width: 175px;
+  height: 175px;
+  background: #fff;
+  z-index: 2;
+  left: calc(50% - 87px);
+  border-radius: 50%;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.25)
+}
+
+.logo img {
+  display: inline-block;
+  border-radius: 50%
+}
+
+nav {
+  float: left;
+  width: 100%;
+  background: #fff;
+  z-index: 5;
+  position: relative;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.25)
+}
+
+.logo-circle-top {
+  top: -45px;
+  box-shadow: none
+}
+
+.navs {
+  margin: 0;
+  padding: 0;
+  float: left;
+  list-style-type: none;
+  width: 100%
+}
+
+.navs .sub-menu {
+  position: Relative
+}
+
+.navs .sub-menu>ul {
+  display: none;
+  background: #fff;
+  position: absolute;
+  top: 54px;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  border-radius: 0 0 7px 7px
+}
+.navs .sub-menu>ul>li>ul {
+  display: none;
+  background: #fff;
+  position: absolute;
+  left: 173px;
+  margin: 0;
+  padding: 0;
+  margin-top: -38px;
+  list-style-type: none;
+  border-radius: 0 0 0px 0px
+}
+
+.navs .sub-menu:hover>ul{
+  display: block;
+  border: 1px solid #dedede;
+  border-top: 0
+}
+.navs .sub-menu>ul>li:hover>ul {
+  display: block;
+  border: 1px solid #dedede;
+  border-top: 0;
+  width: 172px;
+}
+.navs .sub-menu ul>li {
+  display: block !important;
+  width: 100% !important
+}
+
+.navs .sub-menu ul>li a {
+  display: block;
+  font-weight: 600;
+  font-size: 13px;
+  padding: 10px
+}
+
+.navs .sub-menu ul>li a:hover {
+  background: #f5f5f5
+}
+
+.navs li {
+  width: calc(100% / 3);
+  float: left;
+  text-align: center
+}
+
+.navs>li>a {
+  display: block;
+  color: #3e3e3e;
+  font-weight: 700;
+  padding: 17px 0 14px;
+  border-bottom: 3px solid transparent !important
+}
+
+.navs>li>a:hover {
+  margin-bottom: 0 !important
+}
+
+.banner .owl-nav {
+  position: absolute;
+  top: 0;
+  width: 280px;
+  left: calc(50% - 140px);
+  -webkit-mask-image: url(../img/button-mask.png);
+  mask-image: url(../img/button-mask.png);
+  -webkit-mask-position: center bottom;
+  mask-position: center bottom;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  height: 34px
+}
+
+.banner .owl-nav button {
+  color: #fff !important;
+  font-size: 22px !important;
+  display: block !important;
+  -webkit-transition: all .10s linear;
+  -moz-transition: all .10s linear;
+  -o-transition: all .10s linear;
+  transition: all .10s linear
+}
+
+.banner .owl-nav button:first-child {
+  position: Absolute;
+  left: 0;
+  height: 34px;
+  padding: 0 50px 0 40px !important
+}
+
+.banner .owl-nav button:hover {
+  background: rgba(255, 255, 255, 0.2) !important
+}
+
+.banner .owl-nav button:last-child {
+  position: Absolute;
+  right: 0;
+  height: 34px;
+  padding: 0 40px 0 50px !important
+}
